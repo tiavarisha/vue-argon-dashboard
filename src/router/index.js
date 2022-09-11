@@ -54,7 +54,21 @@ const routes = [
     name: "Signup",
     component: Signup,
   },
-  
+  {
+    path: "/post",
+    name: "post",
+    component: () => import('../views/components/post.vue') ,
+  },
+  {
+    path: "/put",
+    name: "put",
+    component: put ,
+  },
+  {
+    path: "/del",
+    name: "del",
+    component: del ,
+  },
 ];
 
 const router = createRouter({

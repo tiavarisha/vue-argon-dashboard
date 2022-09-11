@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     v-show="this.$store.state.layout !== 'landing'"
     class="card card-plain shadow-none"
@@ -62,4 +62,4 @@ export default {
     };
   }
 };
-</script>
+</script> -->
